@@ -18,7 +18,7 @@
     This project involves analyzing house sales data from King County, Washington, to predict past and future trends in the housing market. Utilizing a dataset from Kaggle, the data was reformatted with pandas for               manipulation and analysis and then visualized using Tableau to draw insightful conclusions and predictions.
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://public.tableau.com/views/HouseSalesViz_17139744908580/KingCountyHouseSales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">View Interactive Dashboard</a>
   </p>
 </div>
 
@@ -34,6 +34,7 @@
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#insights">Insights</a></li>
         <li><a href="#reccomendations">Reccomendations</a></li>
+        <li><a href="#project-outcomes">Project Outcomes</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -65,31 +66,80 @@ Predictive models were developed to forecast future prices and assess the impact
 ### 1. Descriptive Statistics
 The average sale price of a house is approximately $540,088. The average home has 3 bedrooms, 2.5 bathrooms, and an average living space of around 2,080 square feet. Bathrooms and above-ground square feet show strong positive correlations with price, which is typical as these factors contribute to a home's overall space and functionality.
 
+![bedrooms-histogram](/images/bedrooms_insight.png)
+
+![bathrooms-histogram](/images/bathrooms_insight.png)
+
+
+
 ### 2. Special Features
-Homes with waterfront views have a significantly higher average price ($1.66 million) than those without ($531.5 thousand). This feature is a significant price booster.
+Homes with waterfront views have a significantly higher average price ($1.66 million) than those without ($531.5 thousand). This feature is a significant price booster alongside the home's overall condition.
+
+![view-vs-condition heatmap](/images/heatmap.png)
 
 ### 3. Expensive Zip Codes
 Zipcodes like 98039, 98004, and 98040 are among the highest in average prices, indicating affluent areas that could be targeted for luxury home sales or investments.
 
+![map-insights](/images/map_insights.png)
+
+
 ### 4. Monthly Price Trends
 The data shows seasonal variations in average prices, with peaks around April and May 2015. This suggests that late spring is possibly the best time to sell for higher prices.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Reccomendations -->
 ## Reccomendations
 
+### Home Buyers
+
+#### 1. Prioritize Established High-Value Areas
+Consider purchasing in zip codes like 98039 (Medina), 98004 (Bellevue), and 98040 (Mercer Island), which consistently show the highest average prices. These areas are known for their affluent communities and strong school districts.
+#### 2. Look for Growth Opportunities
+For those looking for potentially rising areas, zip codes such as 98112 (Capitol Hill/Madrona) and 98102 (Eastlake) have shown substantial appreciation while still being relatively more affordable than the top-tier zip codes.
+
+---
+
+### Investors
+
+#### 1. Invest in High-Demand Areas
+Focus investments in 98039, 98004, and 98040, which have high property values and stability in those values, indicating a safe, high-return investment.
+Also, properties in areas like 98112 and 98102 should be considered for diversification, which could capture a different market segment that might yield high returns due to increasing demand.
+
+#### 2. Waterfront Properties
+Properties with waterfront views or access have shown significantly higher values, especially in areas like 98118 (Seward Park) or along the Lake Washington and Puget Sound shorelines. These rare properties tend to appreciate faster than those without waterfront access.
+
+---
+
+### Real Estate Agents/Sellers
+
+#### 1. Effective Listing Strategies
+When listing properties, highlight key selling points such as views, lot size, and renovations, especially in high-value areas like 98039, 98004, and 98040.
+For properties in 98112 and 98102, emphasize community features, proximity to downtown Seattle, and vibrant local amenities, which are big draws.
+
+#### 2. Seasonal Selling
+Analyzing the data suggests listing properties around April and May when prices peak due to increased buyer activity. This timing can help maximize sale prices.
+
+#### 3. Renovation Advice
+Recommend renovations that align with current trends seen in the data. For example, adding luxury fittings or updating kitchens and bathrooms in older homes in areas like 98004 (Bellevue) can significantly increase the property's market value.
+
+#### 4. Target Marketing 
+Focus marketing efforts on houses with large living areas, high-grade constructions, and especially those with waterfront views could yield higher returns.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- PROJECT OUTCOMES -->
+## Project Outcomes
+The visualizations and models developed have shed light on the critical drivers of house prices in King County and reasonably accurately predicted future market trends. These insights can aid potential home buyers, sellers, and real estate investors in making informed decisions.
+
+This project highlights the practical applications of data analysis in real estate and demonstrates how modern data science techniques can be leveraged to extract meaningful information from large datasets.
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [Python](https://www.python.org/)
+* [Tableau Public](https://public.tableau.com/)
+* [Kaggle](https://www.kaggle.com/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
@@ -103,20 +153,18 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Austin Andrade - [Connect with Me](https://www.linkedin.com/in/austinandrade/) - austinmandrade@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: [https://github.com/austinandrade/house_sales_data_analysis](https://github.com/austinandrade/house_sales_data_analysis)
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Dataset](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
+* [pandas - Python Data Analysis Library](https://pandas.pydata.org/)
+* [Zipfile36](https://pypi.org/project/zipfile36/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

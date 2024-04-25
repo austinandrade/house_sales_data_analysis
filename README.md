@@ -8,14 +8,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/austinandrade/house_sales_data_analysis">
+    <img src="images/house.svg" alt="Home" width="140" height="140">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">House Sales Data Job Analysis</h3>
 
   <p align="center">
-    project_description
+    This project involves analyzing house sales data from King County, Washington, to predict past and future trends in the housing market. Utilizing a dataset from Kaggle, the data was reformatted with pandas for               manipulation and analysis and then visualized using Tableau to draw insightful conclusions and predictions.
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
@@ -47,10 +47,35 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This data analysis project explores house sales data from King County, Washington. The primary goal is to apply statistical and predictive analysis techniques to understand historical trends and forecast future movements in the housing market.
+
+The dataset, sourced from Kaggle, comprises comprehensive details on house sales, including prices, lot sizes, number of bedrooms, bathrooms, and other relevant attributes. This dataset provides a rich foundation for conducting detailed exploratory data analysis and predictive modeling.
+
+The analysis began with data cleaning and preprocessing to handle missing values, outliers, and incorrect data types. Descriptive statistics provided initial insights into the central tendencies and dispersions within the data.
+
+Predictive models were developed to forecast future prices and assess the impact of various features on house values. The project also explored seasonal trends, price distributions by geographic locations, and the influence of house features like waterfront views and home condition on sale prices.
+
+![tableau-preview](/images/tableau_preview.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- INSIGHTS -->
+## Insights
+
+### 1. Descriptive Statistics
+The average sale price of a house is approximately $540,088. The average home has 3 bedrooms, 2.5 bathrooms, and an average living space of around 2,080 square feet. Bathrooms and above-ground square feet show strong positive correlations with price, which is typical as these factors contribute to a home's overall space and functionality.
+
+### 2. Special Features
+Homes with waterfront views have a significantly higher average price ($1.66 million) than those without ($531.5 thousand). This feature is a significant price booster.
+
+### 3. Expensive Zip Codes
+Zipcodes like 98039, 98004, and 98040 are among the highest in average prices, indicating affluent areas that could be targeted for luxury home sales or investments.
+
+### 4. Monthly Price Trends
+The data shows seasonal variations in average prices, with peaks around April and May 2015. This suggests that late spring is possibly the best time to sell for higher prices.
+
+<!-- Reccomendations -->
+## Reccomendations
 
 
 ### Built With
@@ -103,20 +128,3 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-url]: https://github.com/austinandrade/house_sales_data_analysis/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/austinandrade
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 

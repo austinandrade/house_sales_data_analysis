@@ -31,10 +31,10 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
         <li><a href="#insights">Insights</a></li>
         <li><a href="#reccomendations">Reccomendations</a></li>
         <li><a href="#project-outcomes">Project Outcomes</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -134,7 +134,7 @@ The visualizations and models developed have shed light on the critical drivers 
 
 This project highlights the practical applications of data analysis in real estate and demonstrates how modern data science techniques can be leveraged to extract meaningful information from large datasets.
 
-### Built With
+## Built With
 
 * [Python](https://www.python.org/)
 * [Tableau Public](https://public.tableau.com/)

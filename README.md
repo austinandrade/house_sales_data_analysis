@@ -12,7 +12,7 @@
     <img src="images/house.svg" alt="Home" width="140" height="140">
   </a>
 
-<h3 align="center">House Sales Data Job Analysis</h3>
+<h3 align="center">House Sales Data Analysis</h3>
 
   <p align="center">
     This project involves analyzing house sales data from King County, Washington, to predict past and future trends in the housing market. Utilizing a dataset from Kaggle, the data was reformatted with pandas for               manipulation and analysis and then visualized using Tableau to draw insightful conclusions and predictions.
